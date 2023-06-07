@@ -1,0 +1,79 @@
+#include <iostream>
+
+    using namespace std;
+    int age = 8;
+    int gif = 45;
+    int off = 28;
+
+    // RAPPEL RACCOURCI : //
+    // \r = retour chariot \n = changement de ligne \t = tabulation horizontale //
+    // \b = déplacement unitaire gauche \f = changement de page //
+    // \\ = caractère barre oblique inverse \' = caractère guillemet simple //
+    // " = caractère double guillemet //
+
+    //LES SIGNES ://
+    // == pour être égale à une valeur donnée//
+    // != pour dire "différent de [nombre indiqué]"//
+    // >= pour être supérieur ou égale à la valeur donnée//
+    // <= pour être inférieur ou égale à la valeur donnée//
+    // > pour être strictement supérieur à la valeur donnée//
+    // < pour être strictement inférieur à la valeur donnée//
+    // && pour deux conditions qui doivent être remplie ( c'est un et )//
+    // || si l'une des deux conditions est remplie ( c'est un ou )//
+
+    string pp = "Phillipe,\n"; // le \n est pour sauter une ligne //
+    string hp = "Thomas, \r"; // le \r ressemble à du verlan //
+    string wp = "Mathieu \b"; // le \b n'a pas l'air de fonctionner avec cette technique //
+    string lp = "Lauricette \t"; // le \t crée un 'espace clavier' d'au moins 3 cases //
+    string vp = "Sautine \f"; // le \f crée un sauté d'une ligne //
+    string fp = "Aurace \\"; // le \\ ici crée un espace et met un \ à côté de la deuxième phrase //
+    string kp = "William \'"; // le \' fait le même effet que \\ mais avec un ' au lieu du \ //
+    string gp = "Oceane"; // le " est utiliser pour y entrer un titre //
+
+    void t(int tri)
+
+    {
+        if (tri == 1)
+        {
+            cout << "Je dirais plutot " << gif - 30 << " euros";
+        }
+
+        else if (tri == 0)
+        {
+            cout << "Batman c\'est un " << off + 45 << " sur " << age + 2;
+        }
+
+        else if (tri == 2)
+        {
+            cout << "Maxime c\'est plus " << age + 2 << " sur " << age + 2;
+        }
+    }
+
+    void f(int en)
+
+    {
+        if (en == 1)
+        {
+            cout << "J\'ai au moins " << age + 48 << " flingue chez moi.\n";
+        }
+
+        else if (en == 0)
+        {
+            cout << "Finalement j\'en prendrais que " << gif << " car le regime tu connais " << pp;
+        }
+
+        else if (en == 2)
+        {
+            cout << "Bon tu commences a me casser les couilles " << pp;
+        }
+    }
+
+int main()
+
+{
+    f(1);
+    t(1);
+
+    std::cin.ignore();
+    return 0;
+}
