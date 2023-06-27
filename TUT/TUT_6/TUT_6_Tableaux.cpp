@@ -22,11 +22,20 @@ int main()
     int Tabel[11] = {0}; // si {0} alors un tableau rempli de 0, si {0,1} alors rempli de 0 et ligne 1 = 1, si {0,1,2}...// 
     // autre méthode : Tabel[0] = 0; Tabel[1] = 1... servant à remplir chaque case (à noté que Tabel[10] est la 11 ème case car le tableau commence à 0)//
 
-    std::cout << "table de " << 5 << std::endl;
+    int n = 0;
+    std::cout << "entrer le numero de la table : " << std::endl;
+    std::cin >> n; 
+    std::cin.ignore();
+    std::cout << "table de " << n << std::endl;
 
-    ComputeTable(5, Tabel); //on à donc la table et 5 = numéro de la table//
+    ComputeTable(n, Tabel); //on à donc la table et 5 = numéro de la table//
 
     DisplayTable(Tabel);
+
+    int* p_d = Tabel;
+
+    std::cout << *(p_d + 1) << std::endl; //affiche la deuxieme case du tableau (donc ce qui est inclu dans l'adresse de cette case)//
+    
 
     std::cin.ignore();
     return 0;
