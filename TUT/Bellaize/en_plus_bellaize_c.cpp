@@ -1,5 +1,5 @@
 #include <iostream>
-
+//pointeur//
 //méthode en C//
 
 int main()

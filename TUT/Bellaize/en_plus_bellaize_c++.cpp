@@ -1,5 +1,5 @@
 #include <iostream>
-
+//pointeur//
 int main()
 {
     int* ptry = 0;
