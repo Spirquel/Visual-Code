@@ -1,0 +1,51 @@
+#include <iostream>
+
+	// RAPPEL RACCOURCI : //
+	   // \r = retour chariot \n = changement de ligne \t = tabulation horizontale //
+	   // \b = déplacement unitaire gauche \f = changement de page //
+	   // \\ = caractère barre oblique inverse \' = caractère guillemet simple //
+	   // " = caractère double guillemet //
+
+	   //LES SIGNES ://
+	   // == pour être égale à une valeur donnée //
+	   // != pour dire "différent de [nombre indiqué]" //
+	   // >= pour être supérieur ou égale à la valeur donnée //
+	   // <= pour être inférieur ou égale à la valeur donnée //
+	   // > pour être strictement supérieur à la valeur donnée //
+	   // < pour être strictement inférieur à la valeur donnée //
+	   // && pour deux conditions qui doivent être remplie ( c'est un et ) //
+	   // ^^ ou absolu //
+	   // || si l'une des deux conditions est remplie ( c'est un ou ) //
+
+	int pp = "Phillipe,\n"; // le \n est pour sauter une ligne //
+	int hp = "Thomas, \r"; // le \r ressemble à du verlan //
+	int wp = "Mathieu \b"; // le \b n'a pas l'air de fonctionner avec cette technique //
+	int lp = "Lauricette \t"; // le \t crée un 'espace clavier' d'au moins 3 cases //
+	int vp = "Sautine \f"; // le \f crée un sauté d'une ligne //
+	int fp = "Aurace \\"; // le \\ ici crée un espace et met un \ à côté de la deuxième phrase //
+	int kp = "William \'"; // le \' fait le même effet que \\ mais avec un ' au lieu du \ //
+	int gp = "Oceane"; // le " est utiliser pour y entrer un titre //
+
+	// char (character), int (integrer valeur), float (floating point, nombre à virgule), double (double precision). //
+	// if (si), else (sinon), else if (sinon si) //
+	// faire ctrl+p pour chercher un dossier plus facilement //
+	// on peut aller dans "file>preferences>keyboard shortcuts" pour modifier les raccourcis (cela permet de mettre ctrl+s à "save all")//
+	//faire alt+fleche (haut ou bas) permet d'interchanger la ligne sélectionné//
+	//faire alt+maj+fleche (haut ou bas) permet de dupliquer la ligne selectionné//
+	//maintenir alt et selectionner des lignes permet d'ecrire en meme temps sur celles-ci//
+	//ctrl+ù permet d'afficher le terminal//
+
+
+int main ()
+{
+	bool c = true; // on peut mettre soit true ou false. //
+
+	std::cin.ignore(); // permet de ne pas afficher le message moche en bas //
+
+	int age = 0;
+	std::cin >> age;
+	std::cin.ignore();
+
+	std::cout << "vous êtes" << (age < 18 ? "mineur" : "majeur") << std::endl; //on met if et else ensemble via ":" ça se nomme "Inline-if//
+	return 0;
+}
