@@ -23,7 +23,7 @@ int main()
     // autre méthode : Tabel[0] = 0; Tabel[1] = 1... servant à remplir chaque case (à noté que Tabel[10] est la 11 ème case car le tableau commence à 0)//
 
     int n = 0;
-    std::cout << "entrer le numero de la table : " << std::endl;
+    std::cout << "entrer le numero de la table : " << std::endl; 
     std::cin >> n; 
     std::cin.ignore();
     std::cout << "table de " << n << std::endl;

@@ -40,6 +40,13 @@ int main ()
 {
 	bool c = true; // on peut mettre soit true ou false. //
 
+	std::cout << "hello" << std::endl; 
+	
+	/*std::cout = sortie standard (mémoire tampon (= buffer))
+	 std::cerr = sortie erreur standard (affichagr direct)
+	 std::clog = permet de journalisé (mémoire tampon)
+	 std::endl = retour à la ligne + flush (vide mémoire tampon) */
+
 	std::cin.ignore(); // permet de ne pas afficher le message moche en bas //
 
 	int age = 0;
