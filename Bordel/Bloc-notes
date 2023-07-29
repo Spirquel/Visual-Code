@@ -38,6 +38,8 @@
 
 int main ()
 {
+	auto l{2563}; /*auto permet de laisser le compilateur choisir entre int/long/long long/float (aussi bool sur true/false)...*/
+	
 	bool c = true; // on peut mettre soit true ou false. //
 
 	std::cout << "hello" << std::endl; 
