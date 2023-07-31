@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 	// RAPPEL RACCOURCI : //
 	   // \r = retour chariot \n = changement de ligne \t = tabulation horizontale //
@@ -26,8 +27,13 @@
 	int kp = "William \'"; // le \' fait le même effet que \\ mais avec un ' au lieu du \ //
 	int gp = "Oceane"; // le " est utiliser pour y entrer un titre //
 
+	/*variables*/
 	// char (character), int (integrer valeur), float (floating point, nombre à virgule), double (double precision). //
+
+	/*if et else*/
 	// if (si), else (sinon), else if (sinon si) //
+
+	/*astuces*/
 	// faire ctrl+p pour chercher un dossier plus facilement //
 	// on peut aller dans "file>preferences>keyboard shortcuts" pour modifier les raccourcis (cela permet de mettre ctrl+s à "save all")//
 	//faire alt+fleche (haut ou bas) permet d'interchanger la ligne sélectionné//
@@ -41,13 +47,20 @@ int main ()
 	auto l{2563}; /*auto permet de laisser le compilateur choisir entre int/long/long long/float (aussi bool sur true/false)...*/
 	
 	bool c = true; // on peut mettre soit true ou false. //
+	std::string username; /*string permet de mettre des mots dans une variable au lieu de seulement des chiffres*/
 
 	std::cout << "hello" << std::endl; 
 	
+	/*different type de sortie*/
 	/*std::cout = sortie standard (mémoire tampon (= buffer))
 	 std::cerr = sortie erreur standard (affichagr direct)
 	 std::clog = permet de journalisé (mémoire tampon)
 	 std::endl = retour à la ligne + flush (vide mémoire tampon) */
+
+	 /*les flags (fonctionne en 0/1)*/
+	 /*goodbit : indique s'il y a des erreurs ou non.
+	 failbit : erreur saisi (ecriture du codage)
+	 badbit : erreur générale pas du au programme (pas rattrapable facilement)*/
 
 	std::cin.ignore(); // permet de ne pas afficher le message moche en bas //
 
