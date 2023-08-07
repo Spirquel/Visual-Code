@@ -7,7 +7,7 @@ int main()
     std::cout << "string + getline + cin \n" << std::endl;
 
     std::cout << "entrer un nombre : " << std::endl;
-    int number;
+    int number; /*c'est un entier donc on ne peut y mettre que des chiffres (si lettre alors number = 0 et le programme s'arrete)*/
     std::cin >> number; /*cin = lecture de flux d'entrer*/ /*si on met un espace, ce qui suivra cet espace ne sera pa pris en compte*/
     
     std::string nom_prenom;
