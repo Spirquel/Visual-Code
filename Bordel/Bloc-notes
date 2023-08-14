@@ -41,6 +41,10 @@
 	//maintenir alt et selectionner des lignes permet d'ecrire en meme temps sur celles-ci//
 	//ctrl+ù permet d'afficher le terminal//
 
+	/*si on a plusieurs fichiers (modularité) one peut écrire "g++ -o main *.cpp" cela permet de tout lire 
+	au lieu d'écrire "g++ -o main tut1.cpp mop1.cpp..."*/
+
+	/*hpp = fichier d'en-tête*/
 
 int main ()
 {
