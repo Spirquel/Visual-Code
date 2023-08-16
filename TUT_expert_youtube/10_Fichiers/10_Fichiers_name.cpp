@@ -13,7 +13,7 @@ std::ios::app*/
 
 int main()
 {
-    std::ifstream f{"10_Fichier.txt"}; /* ifstream = flux de fichiers (i = input, f = flux, stream = flux)*/
+    std::ifstream f{"10_Fichier.txt"}; /* ifstream = flux de fichiers (flux d'entrée) (i = input, f = flux, stream = flux)*/
     /*std::ios(input output stream)::in*/
 
     if(f.is_open()) /*si le fichier est ouvert on fait ça*/
