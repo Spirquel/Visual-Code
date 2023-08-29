@@ -3,7 +3,7 @@
 
 int main()
 {
-    /*Préfices : 0b = binaire (0/1), 0 = octal (8), 0x = hexadecimal (16)*/
+    /*Préfixes : 0b = binaire (0/1), 0 = octal (8), 0x = hexadecimal (16)*/
     
     int a = 0b10011101;
     int b = 0236;
