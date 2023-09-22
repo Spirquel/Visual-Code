@@ -3,9 +3,9 @@
 
     struct product 
     {
-        std::string name;
-        float price;
-        bool avaible;
+        std::string name;/*attribut*/
+        float price;/*attribut*/
+        bool avaible;/*attribut*/
     };
     
 int main()
