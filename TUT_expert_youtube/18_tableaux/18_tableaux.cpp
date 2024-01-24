@@ -6,7 +6,7 @@
 #include "english.hpp"
 #include "indonesian.hpp"
 
-/*tableau est un conteneur (implementation de differente structure de données en info)*/
+/*tableau est un type conteneur (implementation de differente structure de données en info)*/
 
 /*std::array : fill() = remplir le tableau
                at() = afficher un seul élément

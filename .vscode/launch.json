@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ttess/Desktop/PROG/Visual-Code/esiea - informatique - C",
-      "program": "c:/Users/ttess/Desktop/PROG/Visual-Code/esiea - informatique - C/build/Debug/outDebug",
+      "cwd": "c:/Users/ttess/Desktop/PROG/Visual-Code/TUT_expert_youtube/23_iterateurs",
+      "program": "c:/Users/ttess/Desktop/PROG/Visual-Code/TUT_expert_youtube/23_iterateurs/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

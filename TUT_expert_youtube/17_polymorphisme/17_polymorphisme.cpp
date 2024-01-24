@@ -8,10 +8,10 @@
 
 int main()
 {
-    English en{"English"};
+    English en{"English"}; /*'en' est un objet*/
     en.sayGoodNight();
 
-    Indonesian id{"Bunda"};
+    Indonesian id{"Bunda"}; /*'id' est un objet*/
     id.sayGoodNight();
 
     return 0;

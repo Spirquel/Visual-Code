@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-window::window(std::string t, int w, int h) : title(t) , width(w), height(h)
+window::window(std::string t, int w, int h) : title(t) , width(w), height(h) /*constructeur*/
 /*dans l'attribut privé title de ma class windows on injecte le contenu de la variable t (idem pour les deux autres)*/
 {
     std::cout << "ma fenetre : " << title << " largeur : " << width << " hauteur : " << height << std::endl;

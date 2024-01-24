@@ -12,7 +12,7 @@
             /*virtual permet d'utiliser le void en plusieurs version*/ 
             
         protected : /*permet d'avoir _name en privée tout en étant utilisable pour les autres classes (si on met en privé on ne peux pas l'utiliser dans les autres classes.)*/
-            std::string _name;
+            std::string _name; /*car partagé avec les classes filles*/
 
     };
 

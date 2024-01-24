@@ -1,12 +1,15 @@
 #include <iostream>
 #include <string>
+/*chaine de caractere est un type de conteneur*/
 
 /*une chaine de caractere est un tableau (ex : 'h', 'e', 'l', 'l', 'o', '\0')*/
+
 /*string utilise la chaine de caractere pour stocker du texte, mais elle crée la chaine d'elle-même
 std::string = std::basic_string<char>*/
+
 /*on peut utiliser : empty, at, front, back, push_front/back, pop_front/back, append, clear, size
 starts_with = sert à verifier si la premiere case commence par ce qu'on lui indique (c'est du bool)
-ends_with = sert à verifier si la premiere case commence par ce qu'on lui indique (c'est du bool)
+ends_with = sert à verifier si la derniere case commence par ce qu'on lui indique (c'est du bool)
 contains = verifier si un caractere est present (ex : s.contains('W') ou s.contains("World"))
 substr = lire le caractere selon la case du tableau choisi (ex : s.substr(5, 3) /*cela affichera la valeur à la case 5 et celle à la case 3)*/
 
