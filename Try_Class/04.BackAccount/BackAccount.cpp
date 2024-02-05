@@ -34,3 +34,8 @@ void BackAccount::withdrawal(int amount)
         std::cout << "Error" << std::endl;
     }
 }
+
+void BackAccount::print()
+{
+    std::cout << getBalance() << std::endl;
+}

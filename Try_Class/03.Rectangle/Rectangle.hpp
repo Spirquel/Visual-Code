@@ -9,6 +9,7 @@
             double getArea();
             void scale(double zoom);
             void print();
+            void print2(int a);
 
         private:
             double _width;

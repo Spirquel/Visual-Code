@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include "Rectangle.hpp"
 
 Rectangle::Rectangle(double width, double height) : _width(width), _height(height)
@@ -24,5 +25,17 @@ void Rectangle::scale(double zoom)
 
 void Rectangle::print()
 {
-    std::cout << "%.3f" << this->_width << " %.3f" << this->_height << std::endl; 
+    std::cout << std::setprecision(3) << this->_width << " " << std::setprecision(3) << this->_height << std::endl;
+}
+
+void Rectangle::print2(int a)
+{
+    if(a == 1)
+    {
+        std::cout << getPerimeter() << std::endl;
+    }
+    else if(a == 2)
+    {
+        std::cout << getArea() << std::endl;
+    }
 }

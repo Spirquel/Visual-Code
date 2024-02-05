@@ -8,6 +8,7 @@
             int getBalance();
             void deposit(int amount);
             void withdrawal(int amount);
+            void print();
 
         private:
             int _balance;

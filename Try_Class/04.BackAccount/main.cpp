@@ -7,6 +7,7 @@ int main()
     b.deposit(50);
     b.withdrawal(-5);
     b.getBalance();
+    b.print();
 
     return 0;
 }
