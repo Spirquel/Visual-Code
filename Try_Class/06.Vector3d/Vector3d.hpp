@@ -1,18 +1,18 @@
 #ifndef _VECTOR3D_
     #define _VECTOR3D_
 
-    #include <iostream>
+    #include <iomanip>
 
     class Vector3d 
     {
         public:
             Vector3d(double x, double y, double z);
             void display();
-            double static add(Vector3d va, Vector3d vb);
-            double static dot(Vector3d va, Vector3d vb);
+            static Vector3d add(Vector3d &va, Vector3d &vb);
+            static double dot(Vector3d &v1, Vector3d &v2);
             double length();
-            Vector3d static mul(Vector3d va, double t);
-            double normalize();
+            static Vector3d mul(Vector3d &va, double t);
+            void normalize();
 
             void print(int a);
 
