@@ -6,10 +6,12 @@
     class Class
     {
         public:
-        Class();
-        void Affiche();
+            Class();
+            int _b;
+            void Affiche();
+            void Methode(int b);
         private:
-        int _a;
+            int _a;
     };
 
 #endif
