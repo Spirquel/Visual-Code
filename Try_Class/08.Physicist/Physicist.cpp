@@ -9,7 +9,7 @@ void Physicist::methode_day(int a)
     }
     else
     {
-        a = _birth_day;
+        _birth_day = a; /*écrire a = _birth_day ne fonctionne pas !!!*/
     }
 }
 
@@ -21,38 +21,38 @@ void Physicist::methode_month(int b)
     }
     else
     {
-        b = _birth_month;
+        _birth_month = b;
     }
 }
 
 void Physicist::methode_year(int c)
 {
-    if(c > 31 || c < 1)
+    if(c > 2024 || c < 1)
     {
         std::cout << "Error for year" << std::endl;
     }
     else
     {
-        c = _birth_year;
+        _birth_year = c;
     }
 }
 
-Physicist::Physicist(std::string name, int birth_year, int birth_month, int birth_day, std::string country) : _name(name), _birth_year(birth_year), _birth_month(birth_month), _birth_day(birth_day), _country(country)
+Physicist::Physicist(std::string name, int birth_year, int birth_month, int birth_day, std::string country) : _name(name), _country(country)
 {
-    void methode_day(birth_day);
+    methode_day(birth_day);
 
-    void methode_month(birth_month);
+    methode_month(birth_month);
 
-    void methode_year(birth_year);
+    methode_year(birth_year);
 }
 
-Physicist::Physicist(std::string name, int birth_year, int birth_month, int birth_day) : _name(name), _birth_year(birth_year), _birth_month(birth_month), _birth_day(birth_day)
+Physicist::Physicist(std::string name, int birth_year, int birth_month, int birth_day) : _name(name)
 {
-    void methode_day(birth_day);
+    methode_day(birth_day);
 
-    void methode_month(birth_month);
+    methode_month(birth_month);
 
-    void methode_year(birth_year);
+    methode_year(birth_year);
 
     _country = "null";
 }
@@ -69,15 +69,15 @@ void Physicist::Introduce()
 {
     if(_birth_day > 31 || _birth_day < 1)
     {
-        std::cout << "Error" << std::endl;
+        std::cout << "Error 1" << std::endl;
     }
     else if(_birth_month > 12 || _birth_month < 1)
     {
-        std::cout << "Error" << std::endl;
+        std::cout << "Error 2" << std::endl;
     }
     else if(_birth_year < 0)
     {
-        std::cout << "Error" << std::endl;
+        std::cout << "Error 3" << std::endl;
     }
     else
     {
@@ -87,11 +87,11 @@ void Physicist::Introduce()
 
 void Physicist::Modif_birth(int year, int month, int day)
 {
-    void methode_day(day);
+    methode_day(day);
 
-    void methode_month(month);
+    methode_month(month);
 
-    void methode_year(year);
+    methode_year(year);
 }
 
 Physicist::~Physicist()
