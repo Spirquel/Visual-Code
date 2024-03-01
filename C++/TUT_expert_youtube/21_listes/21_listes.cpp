@@ -5,7 +5,7 @@
 /*type de contener*/
 /*diff avec pile : ici on peut accéder aux éléments du début ou de la fin de la liste*/
 /* .front() : premier element de la list; .back() : dernier element de la liste; .size() : taille de la list; .empty() : si la liste est vide;
-   .push_front() : ajout d'un mot au début; .push_back() : ajout d'un mot à la fin; .pop_front() : enleve premier elemet de la liste; .pop_back() : enleve premier element de la liste
+   .push_front() : ajout d'un mot au début; .push_back() : ajout d'un mot à la fin; .pop_front() : enleve premier element de la liste; .pop_back() : enleve dernier element de la liste
    .clear() : supprime elements tableau; .sort() : rangement alphabethique de maniere croissante; .reverse() : rangement alphabethique de maniere decroissante*/
 
 int main()
