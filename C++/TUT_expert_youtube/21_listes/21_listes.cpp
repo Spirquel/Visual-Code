@@ -13,7 +13,7 @@ int main()
     std::list<std::string> li{"loi", "batman"}; /*on définit une liste de type string, celle-ci se nomme "li" et comporte deux elements de character*/
     
 
-    /*for(const auto& i : li) for each, i ira jusqu'à la taille de li (si 2 for eah = for(int i =0; i < 2; i++) et ici i change selon la liste)
+    /*for(const auto& i : li) for each, i ira jusqu'à la taille de li (si li = 2, for each = for(int i =0; i < 2; i++) et ici i change selon la liste)
     {
         std::cout << i << std::endl;
     }*/
