@@ -1,12 +1,12 @@
 #include <iostream>
 #include <string>
 
+
 void valeur(int a)
 {
     if(a > 3 || a < 0)
     {
         std::cout << "Type introuvable" << std::endl;
-        break;
     }
 }
 
@@ -23,7 +23,6 @@ int main()
     if(number_entrant > 4 || number_entrant < 0)
     {
         std::cout << "Type introuvable" << std::endl;
-        break;
     }
     
     switch(number_entrant)
@@ -32,7 +31,7 @@ int main()
             int binary_number;
             int number_sortant_binaire;
             std::cout << "Vous avez choisit binaire \n" << std::endl;
-            std:cout << "Entrez votre nombre : " << std::endl;
+            std::cout << "Entrez votre nombre : " << std::endl;
             std::cin >> binary_number;
 
             std::cout << "Choisir la convertion de ce nombre : \n" << std::endl;
@@ -59,7 +58,7 @@ int main()
             int Decimal_number;
             int number_sortant_decimal;
             std::cout << "Vous avez choisit Decimal \n" << std::endl;
-            std:cout << "Entrez votre nombre : " << std::endl;
+            std::cout << "Entrez votre nombre : " << std::endl;
             std::cin >> Decimal_number;
 
             std::cout << "Choisir le type du nombre que vous souhaitez convertir : \n" << std::endl;
@@ -86,7 +85,7 @@ int main()
             float Flottant_number;
             int number_sortant_floattant;
             std::cout << "Vous avez choisit Flottant \n" << std::endl;
-            std:cout << "Entrez votre nombre : " << std::endl;
+            std::cout << "Entrez votre nombre : " << std::endl;
             std::cin >> Flottant_number;
 
             std::cout << "Choisir le type du nombre que vous souhaitez convertir : \n" << std::endl;
@@ -113,7 +112,7 @@ int main()
             std::string Hexa_number;
             int number_sortant_hexa;
             std::cout << "Vous avez choisit Hexa \n" << std::endl;
-            std:cout << "Entrez votre nombre : " << std::endl;
+            std::cout << "Entrez votre nombre : " << std::endl;
             std::cin >> Hexa_number;
 
             std::cout << "Choisir le type du nombre que vous souhaitez convertir : \n" << std::endl;
@@ -137,6 +136,6 @@ int main()
             }
     }
 
-    std::cin.ingore()    
+    std::cin.ignore();    
     return 0;
 }
