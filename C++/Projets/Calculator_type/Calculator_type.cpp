@@ -16,8 +16,9 @@ int main()
     std::cout << "Choisir le type du nombre que vous souhaitez convertir : \n" << std::endl;
     std::cout << "[0] Binaire \n" << std::endl;
     std::cout << "[1] Decimal \n" << std::endl;
-    std::cout << "[2] Flottant \n" << std::endl;
-    std::cout << "[3] Hexa \n" << std::endl;
+    std::cout << "[2] Octal \n" << std::endl;
+    std::cout << "[3] Flottant \n" << std::endl;
+    std::cout << "[4] Hexa \n" << std::endl;
     std::cin >> number_entrant;
 
     if(number_entrant > 4 || number_entrant < 0)
@@ -36,8 +37,9 @@ int main()
 
             std::cout << "Choisir la convertion de ce nombre : \n" << std::endl;
             std::cout << "[0] Decimal \n" << std::endl;
-            std::cout << "[1] Flottant \n" << std::endl;
-            std::cout << "[2] Hexa \n" << std::endl;
+            std::cout << "[1] Octal \n" << std::endl;
+            std::cout << "[2] Flottant \n" << std::endl;
+            std::cout << "[3] Hexa \n" << std::endl;
             std::cin >> number_sortant_binaire;
 
             valeur(number_sortant_binaire);
@@ -48,10 +50,15 @@ int main()
                     std::cout << "Vous avez choisit Decimal \n" << std::endl;
 
                 case 1:
-                    std::cout << "Vous avez choisit Flottant \n" << std::endl;
+                    std::cout << "Vous avez choisit Octal \n" << std::endl;
 
                 case 2:
+                    std::cout << "Vous avez choisit Flottant \n" << std::endl;
+
+                case 3:
                     std::cout << "Vous avez choisit Hexa \n" << std::endl;
+                    //std::cout << "voici votre nombre Binaire en Hexa : " << std::hex << binary_number << std::endl;
+                    break;
             }
 
         case 1:
@@ -63,8 +70,9 @@ int main()
 
             std::cout << "Choisir le type du nombre que vous souhaitez convertir : \n" << std::endl;
             std::cout << "[0] Binaire \n" << std::endl;
-            std::cout << "[1] Flottant \n" << std::endl;
-            std::cout << "[2] Hexa \n" << std::endl;
+            std::cout << "[1] Octal \n" << std::endl;
+            std::cout << "[2] Flottant \n" << std::endl;
+            std::cout << "[3] Hexa \n" << std::endl;
             std::cin >> number_sortant_decimal;
 
             valeur(number_sortant_decimal);
@@ -75,6 +83,9 @@ int main()
                     std::cout << "Vous avez choisit Binaire \n" << std::endl;
 
                 case 1:
+                    std::cout << "Vous avez choisit Octal \n" << std::endl;
+
+                case 2:
                     std::cout << "Vous avez choisit Flottant \n" << std::endl;
 
                 case 2:
@@ -91,7 +102,8 @@ int main()
             std::cout << "Choisir le type du nombre que vous souhaitez convertir : \n" << std::endl;
             std::cout << "[0] Binaire \n" << std::endl;
             std::cout << "[1] Decimal \n" << std::endl;
-            std::cout << "[2] Hexa \n" << std::endl;
+            std::cout << "[2] Octal \n" << std::endl;
+            std::cout << "[3] Hexa \n" << std::endl;
             std::cin >> number_sortant_floattant;
 
             valeur(number_sortant_floattant);
@@ -105,6 +117,9 @@ int main()
                     std::cout << "Vous avez choisit Decimal \n" << std::endl;
 
                 case 2:
+                    std::cout << "Vous avez choisit Octal \n" << std::endl;
+
+                case 3:
                     std::cout << "Vous avez choisit Hexa \n" << std::endl;
             }
 
@@ -118,7 +133,8 @@ int main()
             std::cout << "Choisir le type du nombre que vous souhaitez convertir : \n" << std::endl;
             std::cout << "[0] Binaire \n" << std::endl;
             std::cout << "[1] Decimal \n" << std::endl;
-            std::cout << "[2] Flottant \n" << std::endl;
+            std::cout << "[2] Octal \n" << std::endl;
+            std::cout << "[3] Flottant \n" << std::endl;
             std::cin >> number_sortant_hexa;
 
             valeur(number_sortant_hexa);
@@ -132,6 +148,9 @@ int main()
                     std::cout << "Vous avez choisit Decimal \n" << std::endl;
 
                 case 2:
+                    std::cout << "Vous avez choisit Octal \n" << std::endl;
+
+                case 3:
                     std::cout << "Vous avez choisit Flottant \n" << std::endl;
             }
     }
