@@ -1,7 +1,7 @@
 #ifndef _RECTANGLE_
     #define _RECTANGLE_
 
-    #include <~/Forme/Forme.hpp>
+    #include "~/Forme/Forme.hpp"
 
     class Rectangle : public Forme
     {
