@@ -1,7 +1,7 @@
 #ifndef _CERCLE_
     #define _CERCLE_
 
-    #include <~/Forme/Forme.hpp>
+    #include "~/Forme/Forme.hpp"
 
     class Cercle : public Forme
     {
