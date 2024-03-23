@@ -1,11 +1,11 @@
 #ifndef _FORME_
-    #define _FORME
+#define _FORME_
 
-    class Forme
-    {
-        public:
-            Forme();
-            ~Forme();
-    };
+class Forme
+{
+    public:
+        Forme();
+        ~Forme();
+};
 
 #endif

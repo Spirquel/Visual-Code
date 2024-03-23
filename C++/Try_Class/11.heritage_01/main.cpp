@@ -1,5 +1,5 @@
-#include "~/Documents/Visual-Code/C++/Try_Class/11.heritage_01/Rectangle/Rectangle.hpp"
-#include "~/Documents/Visual-Code/C++/Try_Class/11.heritage_01/Cercle/Cercle.hpp"
+#include "Rectangle/Rectangle.hpp"
+#include "Cercle/Cercle.hpp"
 
 int main()
 {
