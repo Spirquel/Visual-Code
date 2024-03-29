@@ -18,7 +18,7 @@ bool is_pair(int n) /*pour std::all_of(),std::any_of,std::none_of qui ne fonctio
 int main()
 {
     /*std::fill()*/
-    std::vector<int> vec0{1, 2, 3, 4, 5};
+    std::vector<int> vec0{1, 2, 3, 4, 5}; //un vecteur peut être lu en vec0[i];
 
     for(const auto& e : vec0)
     {
