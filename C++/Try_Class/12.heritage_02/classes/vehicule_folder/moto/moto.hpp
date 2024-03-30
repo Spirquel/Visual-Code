@@ -1,7 +1,7 @@
 #ifndef _MOTO_
     #define _MOTO_
 
-    #include "../vehicule.hpp"
+    #include "../../vehicule.hpp"
 
 class Moto : public Vehicule
 {

@@ -9,10 +9,14 @@ class Vehicule
         double Accelerer();
         void getVitesse();
         void getUsurePneus();
+        double usure_pneus_ = 0.0;
+
+    /*protected:
+        double usure_pneus_ = 0.0;*/
 
     private:
         double vitesse_ = 0.0;
-        double usure_pneus_ = 0.0;
+        
 };
 
 #endif

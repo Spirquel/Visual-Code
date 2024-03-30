@@ -1,14 +1,15 @@
 #ifndef _VOITURE_
     #define _VOITURE_
 
-    #include "../vehicule.hpp"
+    #include <tuple>
+    #include "../../vehicule.hpp"
 
 class Voiture : public Vehicule
 {
     public:
         Voiture() = default;
         ~Voiture();
-        double Drifter();
+        std::tuple<double, double> Drifter();
         void getCasseMoteur();
 
     private:

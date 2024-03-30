@@ -13,10 +13,10 @@ void Vehicule::getVitesse()
 
 void Vehicule::getUsurePneus()
 {
-    std::cout << "Usure des pneu actuelle est : " << usure_pneus_ << std::endl;
+    std::cout << "Usure des pneus actuelle est : " << usure_pneus_ << std::endl;
 }
 
 Vehicule::~Vehicule()
 {
-    std::cout << "destruction de la classe mere vehicule : " << this << std::endl;
+    std::cout << "destruction de la classe mere Vehicule : " << this << std::endl;
 }
