@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Chat.hpp"
 
-void Animal::FaireUnBruit()
+void Chat::FaireUnBruit()
 {
     std::cout << "Miaou" << std::endl;
 }

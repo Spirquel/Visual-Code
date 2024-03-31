@@ -1,12 +1,12 @@
 #include <iostream>
 #include "Chien.hpp"
 
-void Animal::FaireUnBruit()
+void Chien::FaireUnBruit()
 {
     std::cout << "Wouf" << std::endl;
 }
 
-Animal::~Animal()
+Chien::~Chien()
 {
     std::cout << "Destruction de la classe fille Chien : " << this << std::endl;
 }

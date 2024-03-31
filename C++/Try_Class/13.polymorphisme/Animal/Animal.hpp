@@ -6,7 +6,7 @@ class Animal
     public:
         Animal() = default;
         ~Animal();
-        void FaireUnBruit();
+        virtual void FaireUnBruit();
 };
 
 #endif

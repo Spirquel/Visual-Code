@@ -8,7 +8,7 @@ class Chien : public Animal
     public:
         Chien() = default;
         ~Chien();
-
+        void FaireUnBruit() override;
 };
 
 #endif

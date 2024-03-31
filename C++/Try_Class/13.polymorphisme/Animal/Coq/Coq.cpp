@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Coq.hpp"
 
-void Animal::FaireUnBruit()
+void Coq::FaireUnBruit()
 {
     std::cout << "Coq" << std::endl;
 }

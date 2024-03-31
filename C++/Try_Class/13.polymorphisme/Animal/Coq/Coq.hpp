@@ -8,6 +8,7 @@ class Coq : public Animal
     public:
         Coq() = default;
         ~Coq();
+        void FaireUnBruit() override;
 };
 
 #endif
