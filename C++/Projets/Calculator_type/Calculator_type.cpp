@@ -1,17 +1,19 @@
 #include <iostream>
 #include <string>
 
-
 void valeur(int a)
 {
     if(a > 3 || a < 0)
     {
         std::cout << "Type introuvable" << std::endl;
+        break;
     }
 }
 
 int main()
 {
+    /*Préfixes : 0b = binaire (0/1), 0 = octal (8), 0x = hexadecimal (16)*/
+
     int number_entrant;
     std::cout << "Choisir le type du nombre que vous souhaitez convertir : \n" << std::endl;
     std::cout << "[0] Binaire \n" << std::endl;
@@ -24,6 +26,7 @@ int main()
     if(number_entrant > 4 || number_entrant < 0)
     {
         std::cout << "Type introuvable" << std::endl;
+        break;
     }
     
     switch(number_entrant)
@@ -57,8 +60,6 @@ int main()
 
                 case 3:
                     std::cout << "Vous avez choisit Hexa \n" << std::endl;
-                    //std::cout << "voici votre nombre Binaire en Hexa : " << std::hex << binary_number << std::endl;
-                    break;
             }
 
         case 1:
