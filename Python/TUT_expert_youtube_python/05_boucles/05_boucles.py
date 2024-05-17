@@ -25,3 +25,5 @@ sentence = "salut"
 
 for letter in sentence:
     print(letter) #affiche salut lettre en lettre en verticale
+    if letter == "l":
+        print("pas sympa")
